@@ -1,3 +1,4 @@
+/* home page start */
 body {
     margin: 0;
     background-color: rgb(19, 20, 19);
@@ -31,7 +32,7 @@ nav {
 
 #logo a {
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Prompt', sans-serif;
 
 }
 
@@ -48,7 +49,7 @@ nav {
 
 #logo:hover {
     margin-left: -510%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Prompt', sans-serif;
     transition-duration: 0.2s;
 }
 
@@ -69,7 +70,7 @@ nav {
     padding: 10px;
     color: rgb(255, 183, 0);
     font-family: sans-serif;
-    transition-duration: 0.2s;
+    transition-duration: .3s;
 }
 
 .right {
@@ -84,6 +85,7 @@ nav {
     color: rgb(255, 183, 0);
     font-family: sans-serif;
     text-decoration: none;
+    transition-duration: .3s;
 }
 
 .bg-overlay img {
@@ -98,12 +100,12 @@ nav {
     text-align: center;
 }
 
-.reservation p {
+.reservation h2 {
+    padding-top: 20px;
     margin: 0px;
-    padding-bottom: 40px;
-    font-size: 30px;
+    padding-bottom: 5px;
     font-family: 'Poppins', sans-serif;
-
+    color: rgb(25, 25, 25)
 }
 
 #name {
@@ -176,13 +178,150 @@ nav {
     font-family: 'Prompt', sans-serif;
 }
 
-#ELCR:hover {
-    color: rgb(239, 175, 51);
-}
-
 #txtarea {
     font-family: 'Poppins', sans-serif;
     margin-left: 300px;
     margin-right: 300px;
     text-align: center;
 }
+
+.explanation {
+    background-color: rgb(25, 25, 25);
+
+}
+
+/* Home page end */
+/* Contact us start */
+.gitHolder {
+    background-color: rgb(25, 25, 25);
+}
+
+.GIT {
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+}
+
+#txtel {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    color: rgb(239, 175, 51);
+    padding-bottom: 40px;
+}
+
+#locHolder {
+    background-color: rgb(25, 25, 25);
+}
+
+#loc {
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200px;
+    color: rgb(239, 175, 51);
+}
+
+#bar1 {
+    border-style: solid;
+    border-color: rgb(239, 175, 51);
+    border-width: 0.1px;
+    width: 60%;
+}
+
+.loc1 h4 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 380px;
+}
+
+.adress {
+    color: rgb(239, 175, 51);
+    font-family: 'Poppins', sans-serif;
+    padding-left: 390px;
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+.adress1 {
+    color: rgb(239, 175, 51);
+    font-family: 'Poppins', sans-serif;
+    padding-left: 390px;
+    font-size: 14px;
+    margin-top: -19px;
+}
+
+/* contact us end */
+/* rent a car start */
+.CarsList li {
+    color: white;
+    display: inline;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.CarsList li:hover {
+    cursor: pointer;
+    color: rgb(239, 175, 51);
+    display: inline;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    transition: .3s;
+}
+
+.CarsList {
+    text-align: center;
+}
+
+.cars-Holder {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+
+/* .kolhom>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+} */
+
+/* .shop-item-image {
+    height: 250px;
+} */
+
+.cars-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+/* .shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #ffffff;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+} */

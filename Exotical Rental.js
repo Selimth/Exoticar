@@ -11,3 +11,12 @@ function slideShow(){
    return setTimeout(slideShow,6000)
 }
 slideShow()
+
+var Allcars={lambo:{
+    "Lamborghini Hurican":"Images\Lambo\Lambo Hurican.webp",
+    "Lamborghini Urus":"Images\Lambo\Lambo Urus.webp"
+},
+"Bently":{"Bently GTC":""
+
+}
+}
