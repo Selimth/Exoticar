@@ -60,7 +60,7 @@ nav {
     display: inline;
     padding: 10px;
     color: rgba(255, 255, 255, 0.443);
-    font-family: sans-serif;
+    font-family: 'Prompt', sans-serif;
     margin-bottom: 100px;
 
 }
@@ -273,55 +273,49 @@ nav {
 
 .CarsList {
     text-align: center;
+
 }
 
-.cars-Holder {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    padding: 10px;
-    justify-self: center;
-    justify-items: center;
-    justify-content: center;
+.cars-holder {
+    background-color: rgb(25, 25, 25);
 }
 
-
-
-/* .kolhom>div {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid black;
-    text-align: center;
-    font-size: 30px;
-} */
-
-/* .shop-item-image {
+.car-image {
+    cursor: pointer;
     height: 250px;
-} */
-
-.cars-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 30px;
 }
 
-/* .shop-item-details {
-    display: flex;
-    align-items: center;
-    padding: 5px;
+.car-image:hover {
+    cursor: pointer;
+    height: 300px;
+    opacity: 0.3;
+    transition: 0.5s;
+
 }
 
-.shop-item-price {
-    flex-grow: 1;
-    color: #ffffff;
-}
-
-.shop-item-title {
+.car-title {
+    cursor: pointer;
     display: block;
     width: 100%;
     text-align: center;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 15px;
     color: #ffffff;
-    margin-bottom: 15px;
-} */
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.car-title:hover {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(239, 175, 51);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    transition: .3s;
+}
