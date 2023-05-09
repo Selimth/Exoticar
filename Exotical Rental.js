@@ -11,9 +11,3 @@ function slideShow(){
    return setTimeout(slideShow,4000)
 }
 slideShow()
-
-$("#bl").click(function(){
-    if(($("#inpName").val())===undefined){
-       alert("Enter a your name")        
-    }
-})
